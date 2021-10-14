@@ -7,9 +7,9 @@ class Person:
 
 
 p1 = Person('time')
-
+print(Person.number_of_people)
 p2 = Person('jill')
-
+print(Person.number_of_people)
 
 # Person.number_of_people = 8
 # print(p1.number_of_people)
