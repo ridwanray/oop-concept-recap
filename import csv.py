@@ -3,7 +3,10 @@
 import json
 import csv
  
-data = [{'date': '2021-11-01', 'PMS_N': None, 'PMS_L': None, 'AGO_N': None, 'AGO_L': None, 'DPK_N': None, 'DPK_L': None}, {'date': '2021-11-02', 'PMS_N': None, 'PMS_L': None, 'AGO_N': None, 'AGO_L': None, 'DPK_N': None, 'DPK_L': None}, {'date': '2021-11-03', 'PMS_N': None, 'PMS_L': None, 'AGO_N': None, 'AGO_L': None, 'DPK_N': None, 'DPK_L': None}, {'date': '2021-11-04', 'PMS_N': None, 'PMS_L': None, 'AGO_N': None, 'AGO_L': None, 'DPK_N': None, 'DPK_L': None}, {'date': '2021-11-05', 'PMS_N': None, 'PMS_L': None, 'AGO_N': None, 'AGO_L': None, 'DPK_N': None, 'DPK_L': None}]
+data = [
+    {'date': '2021-11-01', 'PMS_N': None, 'PMS_L': None, 'AGO_N': None, 'AGO_L': None, 'DPK_N': None, 'DPK_L': None},
+     {'date': '2021-11-02', 'PMS_N': None, 'PMS_L': None, 'AGO_N': None, 'AGO_L': None, 'DPK_N': None, 'DPK_L': None}, 
+     {'date': '2021-11-03', 'PMS_N': None, 'PMS_L': None, 'AGO_N': None, 'AGO_L': None, 'DPK_N': None, 'DPK_L': None}, {'date': '2021-11-04', 'PMS_N': None, 'PMS_L': None, 'AGO_N': None, 'AGO_L': None, 'DPK_N': None, 'DPK_L': None}, {'date': '2021-11-05', 'PMS_N': None, 'PMS_L': None, 'AGO_N': None, 'AGO_L': None, 'DPK_N': None, 'DPK_L': None}]
 #
  
 # Opening JSON file and loading the data
